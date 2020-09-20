@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+}
+
+.mainTitle{
+    text-align: left;
+    font-size: 100%;
+}
+
+
+#mainPicture,  input[type=number] {
+    display: block;
+    margin: auto;
+    
+}
+#mainPicture{
+    width:auto;
+    height:500px;
+}
+
+input[type=number]{
+    height: 50px;
+    background: lightgrey;
+    font-size:230%;
+    
+
+    -moz-appearance: textfield;
+}
+
+
+#picture{
+    display: flex;
+    flex-direction: row;
+}
+#picture>button{
+    width: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#previous{
+    margin:auto;
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+#next{
+    margin:auto;
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    background: lightgrey;
+    border:none;
+}
+button:active{
+    background: #555555;
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
